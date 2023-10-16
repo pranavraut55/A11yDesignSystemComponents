@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="flip.css">
+  
+</head>
+<body>
+<h1 tabindex="0">Flipcard examples</h1>
+    <div class="flip-card" role="button" tabindex="0" aria-label="Flip card" data-front="Front side" data-back="Back side data">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            Front
+          </div>
+          <div class="flip-card-back">
+            Back
+          </div>
+        </div>
+      </div>
+      
+      <div class="flip-card" role="button" tabindex="0" aria-label="Flip card" data-front="BAT" data-back="BAT is a bird who sleeps upside down">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            BAT
+          </div>
+          <div class="flip-card-back">
+            BAT is a bird who sleeps upside down
+          </div>
+        </div>
+      </div> 
+
+<div role="region" aria-live="polite" id="announcement" class="visually-hidden"></div>
+
+
+<script src="flip.js"></script>
+</body>
+</html>
